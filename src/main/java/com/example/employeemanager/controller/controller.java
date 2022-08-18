@@ -19,6 +19,7 @@ public class controller {
         this.employeeService = employeeService;
     }
 
+//    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/all")
     public ResponseEntity<List<Employee>> getAllEmploayee(Employee employee)
     {
